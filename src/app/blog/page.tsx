@@ -38,8 +38,7 @@ const page = async () => {
               };
 
               return (
-                <div className="w-4/5 mx-20 py-8">
-                  <div key={blog.sys.id}>
+                <div key={blog.sys.id} className="w-4/5 mx-20 py-8">
                     <div className="pb-6 ">
                       <img
                         className="rounded-lg"
@@ -70,7 +69,6 @@ const page = async () => {
                     >
                       READ MORE
                     </Link>
-                  </div>
                 </div>
               );
             })}
